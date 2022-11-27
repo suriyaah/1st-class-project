@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        login page
+    </title>
+    <head>
+        <link rel="stylesheet"  href="stylesheet.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&display=swap');
+            </style>
+    </head>
+    
+    <body>
+        <div class="overlay">
+            <form>
+                <div class="con">
+                    <header class="header-form">
+                        <h2>LOGIN</h2>
+                       <p>login here using your username and password</p>
+                    </header>
+                    <br>
+                    <div class="field-set">
+                        <span class="input-item">
+                            <i class=" fa-fa-usercircle"></i>
+                        </span>
+                        <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+                        <br>
+                        <span class="input-item">
+                            <i class="fa fa-key"></i>
+                           </span>
+                           <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+                           <br>
+                           <span>
+                            <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+                         </span>
+                         <br>
+                         <button class="Login">Login</button>
+                         <div class="other">
+                            <div class="other">
+                                
+                                      <button class="btn submits frgt-pass">Forgot Password</button>
+                                
+                                      <button class="btn submits sign-up">Sign Up 
+                                
+                                      <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                      </button>
+                         </div>
+                    </div>
+                </div>
+            
+            </form>
+    
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>

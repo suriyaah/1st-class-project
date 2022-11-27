@@ -1,0 +1,32 @@
+ul {
+    list-style:none ;
+    margin :0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgb(241, 227, 233);
+    position:center;
+    top:0;
+    width: 100;
+    
+
+}
+li{
+    float:left; 
+    border-right:1px solid;
+
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: solid;
+}
+h3{
+    text-align: end;
+    bottom: 100%;
+}
+h4{
+    text-align: end;
+    bottom: 100%;
+}
